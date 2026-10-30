@@ -1,0 +1,9 @@
+Field	Type	Null	Key	Default	Extra
+session_id	varchar(64)	NO	PRI	NULL	
+bg_pagina	varchar(7)	NO		#d0ddd9	
+bg_header	varchar(7)	NO		#aba3e6	
+bg_card	varchar(7)	NO		#111827	
+spazio_ds	float	NO		10	
+timeout_sec	int(11)	NO		4	
+stato_iniziale	tinyint(1)	NO		0	
+ultimo_aggiornamento	timestamp	YES		current_timestamp()	on update current_timestamp()

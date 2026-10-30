@@ -1,0 +1,20 @@
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+session_id	varchar(64)	NO	MUL	NULL	
+run_numero	int(11)	NO		NULL	
+dt1	int(11)	NO		NULL	
+dt_gap	int(11)	NO		NULL	
+dt2	int(11)	NO		NULL	
+dt_tot	int(11)	NO		NULL	
+spazio_ds	float	NO		NULL	
+v1	float	NO		NULL	
+v_gap	float	NO		NULL	
+v2	float	NO		NULL	
+v_media	float	NO		NULL	
+a12	float	NO		NULL	
+a23	float	NO		NULL	
+a13	float	NO		NULL	
+a_min_quad	float	NO		NULL	
+timestamp	timestamp	YES		current_timestamp()	
+esclusa	tinyint(1)	NO		0	
+note	text	YES		NULL	
